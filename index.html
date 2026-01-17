@@ -33,15 +33,23 @@
   </nav>
 
 
-  <h1>Word Counter</h1>
-  <p>Paste your text below:</p>
+  <h1>Word and Character Counter</h1>
+  <p>Use this free word and character counter to quickly count the number of words and characters
+  in any text. Paste your text below to see the word count and character count update instantly.
+  </p>
 
+  <p><strong>Paste your text below:</strong></p>
   <textarea id="text"></textarea>
 
   <div class="count">
     Words: <span id="wordCount">0</span><br>
     Characters: <span id="charCount">0</span>
   </div>
+
+  <p>This tool counts words separated by spaces and includes all characters,
+  including spaces and punctuation, in the character count.
+  </p>
+
 
   <script>
     const textarea = document.getElementById("text");
@@ -58,4 +66,8 @@
   </script>
 
 </body>
+<footer>
+  <p>This tool runs entirely in your browser and does not store your text.</p>
+</footer>
+
 </html>
