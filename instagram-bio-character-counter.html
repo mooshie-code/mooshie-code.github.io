@@ -32,14 +32,35 @@
 
 
   <h1>Instagram Bio Character Counter</h1>
-  <p>Instagram bio limit: 150 characters (including spaces).</p>
-  <p>Paste your bio below to check:</p>
+  <p>Instagram bios can be up to <strong>150 characters</strong>, including spaces and emojis.
+  If your bio is too long, Instagram will not allow you to save it.
+  </p>
+
+  <p>Paste your bio text below to check the character count and make sure it fits
+  within the Instagram bio limit.
+  </p>
+  <p><strong>Paste your Instagram bio below:</strong></p>
+
   <textarea id="text"></textarea>
 
   <div class="count">
     Words: <span id="wordCount">0</span><br>
     Characters: <span id="charCount">0</span>
   </div>
+  <h2>Instagram Bio Character Limit FAQs</h2>
+
+<ul>
+  <li><strong>Do spaces count toward the Instagram bio limit?</strong><br>
+  Yes. Spaces are included in the 150-character limit.</li>
+
+  <li><strong>Do emojis count as characters?</strong><br>
+  Yes. Emojis count toward the character limit and may count as more than one character
+  depending on the emoji.</li>
+
+  <li><strong>Do line breaks count?</strong><br>
+  Yes. Line breaks and special characters are included in the character count.</li>
+  </ul>
+
 
   <script>
     const textarea = document.getElementById("text");
@@ -56,4 +77,8 @@
   </script>
 
 </body>
+<footer>
+  <p>This tool runs entirely in your browser and does not store your text.</p>
+</footer>
+
 </html>
